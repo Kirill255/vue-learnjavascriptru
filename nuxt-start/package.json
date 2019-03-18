@@ -1,0 +1,47 @@
+{
+  "name": "nuxt-start",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Kirill255 <jhgbnm1@mail.ru>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "fake": "json-server --watch db.json --port 3004"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0",
+    "animate.css": "^3.7.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.3",
+    "bootstrap-datepicker": "^1.8.0",
+    "dropzone": "^5.5.1",
+    "epic-spinners": "^1.0.3",
+    "flatpickr": "^4.5.1",
+    "jquery": "^3.3.1",
+    "json-server": "^0.14.0",
+    "medium-editor": "^5.23.3",
+    "node-sass": "^4.9.2",
+    "nuxt": "^1.0.0",
+    "popper.js": "^1.14.4",
+    "sass-loader": "^7.1.0",
+    "selectric": "^1.13.0",
+    "text-mask-addons": "^3.8.0",
+    "vue-js-toggle-button": "^1.2.3",
+    "vue-text-mask": "^6.1.2",
+    "vue2-medium-editor": "^1.1.5",
+    "vuelidate": "^0.7.4",
+    "vuex-cache": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
